@@ -2,7 +2,11 @@
 
 **Wealth Wise** is a **comprehensive AI-powered personal finance advisor** that combines various intelligent features including **chatbot capabilities, financial analysis, and more**. Built with a **modern tech stack**, it features a **React frontend** and a **Python Flask backend**.  
 
----  
+## 📽️ Demo
+
+https://github.com/user-attachments/assets/7a33f3b5-fd4e-4178-b676-68d7ea687781
+
+---
 
 ## 🌟 Features  
 
