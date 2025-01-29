@@ -6,9 +6,6 @@ import re
 from jgaad_ai_agent_backup import jgaad_chat_with_gemini
 import gemini_fin_path
 
-# start scheudler.py in asyn mode
-subprocess.Popen(['python', 'scheudler.py'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
-
 app = Flask(__name__)
 CORS(app)
 
