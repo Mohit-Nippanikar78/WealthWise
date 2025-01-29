@@ -1,0 +1,63 @@
+{
+    "nodes": [
+      {
+        "id": "start",
+        "position": { "x": 250, "y": 50 },
+        "data": { "label": "Investment\n₹1,00,000" },
+        "style": {
+          "background": "bg-blue-100",
+          "border": "border-blue-500"
+        }
+      },
+      {
+        "id": "index",
+        "position": { "x": 50, "y": 200 },
+        "data": { "label": "Index Funds\n₹40,000" },
+        "style": {
+          "background": "bg-indigo-100",
+          "border": "border-indigo-500"
+        }
+      },
+      {
+        "id": "midcap",
+        "position": { "x": 250, "y": 200 },
+        "data": { "label": "Mid-Cap Stocks\n₹35,000" },
+        "style": {
+          "background": "bg-orange-100",
+          "border": "border-orange-500"
+        }
+      },
+      {
+        "id": "gold",
+        "position": { "x": 450, "y": 200 },
+        "data": { "label": "Gold Investment\n₹25,000" },
+        "style": {
+          "background": "bg-yellow-100",
+          "border": "border-yellow-500"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-index",
+        "source": "start",
+        "target": "index",
+        "label": "40%",
+        "style": { "stroke": "stroke-indigo-500" }
+      },
+      {
+        "id": "e-midcap",
+        "source": "start",
+        "target": "midcap",
+        "label": "35%",
+        "style": { "stroke": "stroke-orange-500" }
+      },
+      {
+        "id": "e-gold",
+        "source": "start",
+        "target": "gold",
+        "label": "25%",
+        "style": { "stroke": "stroke-yellow-500" }
+      }
+    ]
+  }

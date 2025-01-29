@@ -1,0 +1,76 @@
+{
+    "assets": [
+        {
+            "name": "Bank Account",
+            "type": "Cash",
+            "value": "10000",
+            "dateupdated": "2020-01-01",
+            "quantity": "1"
+        },
+        {
+            "name": "Reliance Industries",
+            "type": "Stock",
+            "value": "50000",
+            "dateupdated": "2020-01-01",
+            "quantity": "3"
+        }
+    ],
+    "liabilities": [
+        {
+            "name": "Car Loan",
+            "type": "Loan",
+            "amount": "5000",
+            "interestrateanually": "8",
+            "duedate": "2023-12-01",
+            "startdate": "2022-01-15"
+        },
+        {
+            "name": "Credit Card",
+            "type": "Credit Card",
+            "amount": "2000",
+            "interestrateanually": "18",
+            "duedate": "2023-12-01",
+            "startdate": "2022-01-15"
+        }
+    ],
+    "income": [
+        {
+            "name": "My Salary",
+            "type": "Salary",
+            "amount": "70000"
+        },
+        {
+            "name": "Side Hustle",
+            "type": "Business",
+            "amount": "10000"
+        }
+    ],
+    "expenses": [
+        {
+            "name": "Rent",
+            "category": "Housing",
+            "type": "Fixed",
+            "amount": "20000"
+        },
+        {
+            "name": "Groceries",
+            "category": "Food",
+            "type": "Variable",
+            "amount": "10000"
+        }
+    ],
+    "goals": [
+        {
+            "title": "Save for Car",
+            "targetamount": "500000",
+            "timeframe": "Short-term",
+            "prioritylevel": "1"
+        },
+        {
+            "title": "Save for House",
+            "targetamount": "10000000",
+            "timeframe": "Long-term",
+            "prioritylevel": "2"
+        }
+    ]
+}
